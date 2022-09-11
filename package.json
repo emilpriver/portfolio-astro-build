@@ -44,6 +44,7 @@
 	},
 	"dependencies": {
 		"@astrojs/cloudflare": "^1.0.1",
-		"rollup": "^2.78.1"
+		"rollup": "^2.78.1",
+		"strip-ansi": "^7.0.1"
 	}
 }

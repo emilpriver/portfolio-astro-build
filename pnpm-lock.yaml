@@ -29,6 +29,7 @@ specifiers:
   prettier-plugin-astro: 0.5.0
   prettier-plugin-tailwindcss: ^0.1.13
   rollup: ^2.78.1
+  strip-ansi: ^7.0.1
   stylelint: ^14.10.0
   stylelint-config-prettier: ^9.0.3
   stylelint-config-standard: ^27.0.0
@@ -38,6 +39,7 @@ specifiers:
 dependencies:
   '@astrojs/cloudflare': 1.0.1
   rollup: 2.78.1
+  strip-ansi: 7.0.1
 
 devDependencies:
   '@astrojs/image': 0.3.4
@@ -1062,7 +1064,6 @@ packages:
   /ansi-regex/6.0.1:
     resolution: {integrity: sha512-n5M855fKb2SsfMIiFFoVrABHJC8QtHwVx+mHWP3QcEqBHYienj5dHSgjbxtC0WEZXYt4wcD6zrQElDPhFuZgfA==}
     engines: {node: '>=12'}
-    dev: true
 
   /ansi-styles/3.2.1:
     resolution: {integrity: sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==}
@@ -5252,7 +5253,6 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       ansi-regex: 6.0.1
-    dev: true
 
   /strip-bom-string/1.0.0:
     resolution: {integrity: sha512-uCC2VHvQRYu+lMh4My/sFNmF2klFymLX1wHJeXnbEJERpV/ZsVuonzerjfrGpIGF7LBVa1O7i9kjiWvJiFck8g==}
